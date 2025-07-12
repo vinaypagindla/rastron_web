@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_page{
+    height: 100vh;
+    background-image: url(./assests/arrangement-black-plates-with-copy-space.jpg);
+    background-size: cover;
+    /* background-color: black; */
+
+}
+
+
+.nav_bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+        justify-content: space-between;
+        
+}
+i{
+    /* position:absolute;
+    top: 20px;
+    font-size: 40px;
+    color: orange; */
+    padding-right: 15px;
+}
+ .nav_bar > a{
+      font-family: "Boldonse";
+      font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    /* margin-top: 20px;
+    margin-left: 85px; */
+    font-size: 20px;
+    color: orange;
+    padding: 10px 20px;
+
+}
+
+
+.nav_bar .nav_items {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    padding: 0;
+    margin-top: 20px;
+        margin-right: 25px;
+}
+
+.nav_items li {
+    display: flex;
+        justify-content: space-between;
+        list-style-type:none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nav_items li a{
+        font-family: "Roboto", sans-serif;
+            /* margin-right: 25px; */
+            padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    color: orange;
+}
+
+.nav_items li a:hover{
+    color: orange;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.nav_items li a:checked{
+    color: orange;
+}
+
+.btn-book{
+    color: white;
+    padding: 0px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.btn-book:hover{
+   background-color:  rgba(255, 166, 0, 0.896);
+}
+
+.landing{
+    height: 91.11vh;
+    margin: 50px 50px;
+
+    display: flex;
+
+}
+
+.main_page .landing .left{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    height: 91.11vh;
+    width: 50vw;
+    color: white;
+    font-size: 25px;
+    
+    /* display: flex;
+    display: inline;
+    align-self: center;
+    justify-content: center; */
+
+}
+
+.main_page .landing .left h1,p{
+    align-items: center;
+    padding: 10px 30px;
+}
+
+
+.main_page .landing .left h1{
+    align-items: center;
+}
+
+.main_page .landing .left p{
+    font-size: 17px;
+}
+
+.main_page .landing .left button{
+    color: white;
+    /* padding: 0px 10px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 190px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 2px;
+    border: none;
+    margin: 10px 30px;
+
+}
+
+.main_page .landing .right img{
+    height: 80vh;
+    animation: spin 50s linear infinite; 
+
+}
+
+.main_page .landing .right{
+    height: 91.11vh;
+    width: 50vw;
+}
+
+.main_page .landing .left ul{
+    /* position: absolute;
+    height: 91.11vh; */
+    margin-top: 70px;
+    /* top: 30vh; */
+    /* border: 2px solid red; */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
